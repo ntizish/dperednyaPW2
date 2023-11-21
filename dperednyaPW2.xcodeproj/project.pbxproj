@@ -13,6 +13,10 @@
 		8384E1FC2B0CF72A005E65B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8384E1FA2B0CF72A005E65B8 /* LaunchScreen.storyboard */; };
 		83A97B5A2B0D1268001DFEEA /* WishMakerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A97B592B0D1268001DFEEA /* WishMakerController.swift */; };
 		83A97B5C2B0D2AE5001DFEEA /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A97B5B2B0D2AE5001DFEEA /* CustomSlider.swift */; };
+		83A97B5F2B0D5480001DFEEA /* UIView+Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A97B5E2B0D5480001DFEEA /* UIView+Pin.swift */; };
+		83A97B622B0D574E001DFEEA /* WishStoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A97B612B0D574D001DFEEA /* WishStoringViewController.swift */; };
+		83A97B642B0D5957001DFEEA /* WrittenWishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A97B632B0D5957001DFEEA /* WrittenWishCell.swift */; };
+		83A97B662B0D5AD6001DFEEA /* AddWishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A97B652B0D5AD6001DFEEA /* AddWishCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		8384E1FD2B0CF72A005E65B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A97B592B0D1268001DFEEA /* WishMakerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishMakerController.swift; sourceTree = "<group>"; };
 		83A97B5B2B0D2AE5001DFEEA /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		83A97B5E2B0D5480001DFEEA /* UIView+Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Pin.swift"; sourceTree = "<group>"; };
+		83A97B612B0D574D001DFEEA /* WishStoringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishStoringViewController.swift; sourceTree = "<group>"; };
+		83A97B632B0D5957001DFEEA /* WrittenWishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrittenWishCell.swift; sourceTree = "<group>"; };
+		83A97B652B0D5AD6001DFEEA /* AddWishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWishCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		8384E1EE2B0CF728005E65B8 /* dperednyaPW2 */ = {
 			isa = PBXGroup;
 			children = (
+				83A97B602B0D5488001DFEEA /* Extensions */,
 				8384E1EF2B0CF728005E65B8 /* AppDelegate.swift */,
 				8384E1F12B0CF728005E65B8 /* SceneDelegate.swift */,
 				8384E1F82B0CF72A005E65B8 /* Assets.xcassets */,
@@ -63,8 +72,19 @@
 				8384E1FD2B0CF72A005E65B8 /* Info.plist */,
 				83A97B592B0D1268001DFEEA /* WishMakerController.swift */,
 				83A97B5B2B0D2AE5001DFEEA /* CustomSlider.swift */,
+				83A97B612B0D574D001DFEEA /* WishStoringViewController.swift */,
+				83A97B632B0D5957001DFEEA /* WrittenWishCell.swift */,
+				83A97B652B0D5AD6001DFEEA /* AddWishCell.swift */,
 			);
 			path = dperednyaPW2;
+			sourceTree = "<group>";
+		};
+		83A97B602B0D5488001DFEEA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				83A97B5E2B0D5480001DFEEA /* UIView+Pin.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A97B662B0D5AD6001DFEEA /* AddWishCell.swift in Sources */,
+				83A97B642B0D5957001DFEEA /* WrittenWishCell.swift in Sources */,
+				83A97B622B0D574E001DFEEA /* WishStoringViewController.swift in Sources */,
+				83A97B5F2B0D5480001DFEEA /* UIView+Pin.swift in Sources */,
 				8384E1F02B0CF728005E65B8 /* AppDelegate.swift in Sources */,
 				8384E1F22B0CF728005E65B8 /* SceneDelegate.swift in Sources */,
 				83A97B5A2B0D1268001DFEEA /* WishMakerController.swift in Sources */,
